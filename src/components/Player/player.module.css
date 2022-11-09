@@ -1,3 +1,6 @@
+.AudioContainer {
+  width: 100%;
+}
 .Audioarea {
   width: 1000px;
   margin: 10% auto 0;
@@ -6,5 +9,18 @@
 
 .Audioarea p {
   margin: 0 0 0.6% 0;
-  font-weight: bold;
+}
+
+.AudioButton {
+  margin-right: 10px;
+}
+
+.Audioarea .AudioButton:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 600px) {
+  .Audioarea {
+    width: 95vw;
+  }
 }
