@@ -10,9 +10,15 @@ function App() {
     <div>
       <div>
         <Carousel infinite timer={4000} stopOnManual>
-          <img src={Banner01} alt="" />
-          <img src={Banner02} alt="" />
-          <img src={Banner03} alt="" />
+          <img
+            src={Banner01}
+            alt="オンラインセミナー開催中!! 550社 100,000本の実績"
+          />
+          <img src={Banner02} alt="PIPセールステック" />
+          <img
+            src={Banner03}
+            alt="LIXIL社 現場担当者のインタビュー! 5000本制作した現場からDXを加速させる現場とは？"
+          />
         </Carousel>
       </div>
       <div>

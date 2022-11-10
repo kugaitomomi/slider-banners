@@ -25,14 +25,6 @@
   z-index: 2;
 }
 
-.LeftArrow:hover {
-  color: #bbccdd;
-}
-
-.LeftArrow:active {
-  color: #206ebd;
-}
-
 .RightArrow {
   cursor: pointer;
   margin-left: 1%;
@@ -42,12 +34,14 @@
   z-index: 2;
 }
 
+.LeftArrow:hover,
 .RightArrow:hover {
-  color: #bbccdd;
+  color: #ccd0d5;
 }
 
+.LeftArrow:active,
 .RightArrow:active {
-  color: #206ebd;
+  color: #de3400;
 }
 
 .Container {
@@ -109,7 +103,7 @@
 }
 
 .PositionIndicator:active {
-  background-color: #206ebd;
+  background-color: #de3400;
 }
 
 .CurrentPosition {
