@@ -206,7 +206,6 @@ function Carousel(props) {
 
   const displayItems = Children.map(children, (child, index) => (
     <div className={classes.CarouselItem} id={`carouselitem` + index}>
-      {console.log(child)}
       {child}
     </div>
   ));
